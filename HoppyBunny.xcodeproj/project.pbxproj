@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A553E3291D1C434300450774 /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = A553E3281D1C434300450774 /* Obstacle.sks */; };
+		A553E32B1D1C807E00450774 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A553E32A1D1C807E00450774 /* MSButtonNode.swift */; };
+		A553E32D1D1C910600450774 /* GameEffects.sks in Resources */ = {isa = PBXBuildFile; fileRef = A553E32C1D1C910600450774 /* GameEffects.sks */; };
+		A5CBC7301D1B5112008985F0 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CBC72F1D1B5112008985F0 /* CGFloat+Extensions.swift */; };
+		A5FB03E81D1AF0AD00CC7EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB03E71D1AF0AD00CC7EFC /* AppDelegate.swift */; };
+		A5FB03EA1D1AF0AD00CC7EFC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A5FB03E91D1AF0AD00CC7EFC /* GameScene.sks */; };
+		A5FB03EC1D1AF0AD00CC7EFC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB03EB1D1AF0AD00CC7EFC /* GameScene.swift */; };
+		A5FB03EE1D1AF0AD00CC7EFC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB03ED1D1AF0AD00CC7EFC /* GameViewController.swift */; };
+		A5FB03F11D1AF0AD00CC7EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FB03EF1D1AF0AD00CC7EFC /* Main.storyboard */; };
+		A5FB03F31D1AF0AD00CC7EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FB03F21D1AF0AD00CC7EFC /* Assets.xcassets */; };
+		A5FB03F61D1AF0AD00CC7EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FB03F41D1AF0AD00CC7EFC /* LaunchScreen.storyboard */; };
+		A5FB04001D1AF39200CC7EFC /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = A5FB03FE1D1AF39200CC7EFC /* sfx_flap.caf */; };
+		A5FB04011D1AF39200CC7EFC /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = A5FB03FF1D1AF39200CC7EFC /* sfx_goal.caf */; };
+		A5FB04031D1AF8A900CC7EFC /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = A5FB04021D1AF8A900CC7EFC /* Hero.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A553E3281D1C434300450774 /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
+		A553E32A1D1C807E00450774 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		A553E32C1D1C910600450774 /* GameEffects.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameEffects.sks; sourceTree = "<group>"; };
+		A5CBC72F1D1B5112008985F0 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGFloat+Extensions.swift"; path = "../CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		A5FB03E41D1AF0AD00CC7EFC /* HoppyBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoppyBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FB03E71D1AF0AD00CC7EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5FB03E91D1AF0AD00CC7EFC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A5FB03EB1D1AF0AD00CC7EFC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A5FB03ED1D1AF0AD00CC7EFC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A5FB03F01D1AF0AD00CC7EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5FB03F21D1AF0AD00CC7EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5FB03F51D1AF0AD00CC7EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5FB03F71D1AF0AD00CC7EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FB03FE1D1AF39200CC7EFC /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
+		A5FB03FF1D1AF39200CC7EFC /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
+		A5FB04021D1AF8A900CC7EFC /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5FB03E11D1AF0AD00CC7EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5FB03DB1D1AF0AD00CC7EFC = {
+			isa = PBXGroup;
+			children = (
+				A5FB03E61D1AF0AD00CC7EFC /* HoppyBunny */,
+				A5FB03E51D1AF0AD00CC7EFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5FB03E51D1AF0AD00CC7EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5FB03E41D1AF0AD00CC7EFC /* HoppyBunny.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FB03E61D1AF0AD00CC7EFC /* HoppyBunny */ = {
+			isa = PBXGroup;
+			children = (
+				A5FB03E71D1AF0AD00CC7EFC /* AppDelegate.swift */,
+				A5FB03E91D1AF0AD00CC7EFC /* GameScene.sks */,
+				A553E3281D1C434300450774 /* Obstacle.sks */,
+				A5FB04021D1AF8A900CC7EFC /* Hero.sks */,
+				A5FB03EB1D1AF0AD00CC7EFC /* GameScene.swift */,
+				A553E32C1D1C910600450774 /* GameEffects.sks */,
+				A5FB03ED1D1AF0AD00CC7EFC /* GameViewController.swift */,
+				A5FB03EF1D1AF0AD00CC7EFC /* Main.storyboard */,
+				A5FB03F21D1AF0AD00CC7EFC /* Assets.xcassets */,
+				A5FB03FD1D1AF39200CC7EFC /* SFX */,
+				A5FB03F41D1AF0AD00CC7EFC /* LaunchScreen.storyboard */,
+				A5FB03F71D1AF0AD00CC7EFC /* Info.plist */,
+				A5CBC72F1D1B5112008985F0 /* CGFloat+Extensions.swift */,
+				A553E32A1D1C807E00450774 /* MSButtonNode.swift */,
+			);
+			path = HoppyBunny;
+			sourceTree = "<group>";
+		};
+		A5FB03FD1D1AF39200CC7EFC /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				A5FB03FE1D1AF39200CC7EFC /* sfx_flap.caf */,
+				A5FB03FF1D1AF39200CC7EFC /* sfx_goal.caf */,
+			);
+			name = SFX;
+			path = ../../../Downloads/SFX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5FB03E31D1AF0AD00CC7EFC /* HoppyBunny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FB03FA1D1AF0AD00CC7EFC /* Build configuration list for PBXNativeTarget "HoppyBunny" */;
+			buildPhases = (
+				A5FB03E01D1AF0AD00CC7EFC /* Sources */,
+				A5FB03E11D1AF0AD00CC7EFC /* Frameworks */,
+				A5FB03E21D1AF0AD00CC7EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoppyBunny;
+			productName = HoppyBunny;
+			productReference = A5FB03E41D1AF0AD00CC7EFC /* HoppyBunny.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5FB03DC1D1AF0AD00CC7EFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Owen Meyer";
+				TargetAttributes = {
+					A5FB03E31D1AF0AD00CC7EFC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 34387457B5;
+					};
+				};
+			};
+			buildConfigurationList = A5FB03DF1D1AF0AD00CC7EFC /* Build configuration list for PBXProject "HoppyBunny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5FB03DB1D1AF0AD00CC7EFC;
+			productRefGroup = A5FB03E51D1AF0AD00CC7EFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5FB03E31D1AF0AD00CC7EFC /* HoppyBunny */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5FB03E21D1AF0AD00CC7EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A553E3291D1C434300450774 /* Obstacle.sks in Resources */,
+				A5FB03EA1D1AF0AD00CC7EFC /* GameScene.sks in Resources */,
+				A5FB04001D1AF39200CC7EFC /* sfx_flap.caf in Resources */,
+				A5FB03F61D1AF0AD00CC7EFC /* LaunchScreen.storyboard in Resources */,
+				A5FB04031D1AF8A900CC7EFC /* Hero.sks in Resources */,
+				A5FB03F31D1AF0AD00CC7EFC /* Assets.xcassets in Resources */,
+				A553E32D1D1C910600450774 /* GameEffects.sks in Resources */,
+				A5FB03F11D1AF0AD00CC7EFC /* Main.storyboard in Resources */,
+				A5FB04011D1AF39200CC7EFC /* sfx_goal.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5FB03E01D1AF0AD00CC7EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FB03EC1D1AF0AD00CC7EFC /* GameScene.swift in Sources */,
+				A5FB03EE1D1AF0AD00CC7EFC /* GameViewController.swift in Sources */,
+				A5CBC7301D1B5112008985F0 /* CGFloat+Extensions.swift in Sources */,
+				A5FB03E81D1AF0AD00CC7EFC /* AppDelegate.swift in Sources */,
+				A553E32B1D1C807E00450774 /* MSButtonNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5FB03EF1D1AF0AD00CC7EFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FB03F01D1AF0AD00CC7EFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5FB03F41D1AF0AD00CC7EFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FB03F51D1AF0AD00CC7EFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5FB03F81D1AF0AD00CC7EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5FB03F91D1AF0AD00CC7EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5FB03FB1D1AF0AD00CC7EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HoppyBunny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.org.HoppyBunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A5FB03FC1D1AF0AD00CC7EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HoppyBunny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.org.HoppyBunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5FB03DF1D1AF0AD00CC7EFC /* Build configuration list for PBXProject "HoppyBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FB03F81D1AF0AD00CC7EFC /* Debug */,
+				A5FB03F91D1AF0AD00CC7EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FB03FA1D1AF0AD00CC7EFC /* Build configuration list for PBXNativeTarget "HoppyBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FB03FB1D1AF0AD00CC7EFC /* Debug */,
+				A5FB03FC1D1AF0AD00CC7EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5FB03DC1D1AF0AD00CC7EFC /* Project object */;
+}
